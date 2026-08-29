@@ -1,0 +1,60 @@
+# ESP-IDF build output
+build/
+
+# ESP-IDF configuration files
+sdkconfig
+sdkconfig.old
+sdkconfig.defaults.old
+
+# Compilation database
+compile_commands.json
+
+# CMake files
+cmake-build-*/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# C/C++ build artifacts
+*.o
+*.a
+*.so
+*.d
+*.elf
+*.map
+*.bin
+*.hex
+
+# ESP-IDF generated files
+dependencies.lock
+managed_components/
+
+# Optional: ignore local component manager downloads
+components/*/managed_components/
