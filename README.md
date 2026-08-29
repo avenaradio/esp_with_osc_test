@@ -1,6 +1,7 @@
 ### Clone
 ```sh
 git clone --recursive https://github.com/avenaradio/esp_with_osc_test.git
+```
 
 ### Configure the project
 
